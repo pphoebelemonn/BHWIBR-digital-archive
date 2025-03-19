@@ -7,7 +7,7 @@ nvm <br>
 node.js <br>
 astro <br>
 react <br>
-python  <br>
+python  <br> 
 flask <br>
 flask_cors <br>
 

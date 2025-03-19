@@ -1,4 +1,21 @@
-#Libraries required to run
+# "But How will I be Rememberd?" 
+## Digital Archive Prototype 
+
+### Requirements 
+npm <br>
+nvm <br>
+node.js <br>
+astro <br>
+react <br>
+python  <br>
+flask <br>
+flask_cors <br>
+
+### How to run 
+1. Inside project folder ../BHWIBR-digital-archive open both app.py and textInput.jsx
+2. Create a split terminal
+3. In one terminal, start the back end: python backend/app.py
+4. In the second terminal, start the fornt end: npm run dev 
 
 > 
 

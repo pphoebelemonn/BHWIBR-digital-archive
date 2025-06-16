@@ -1,0 +1,19 @@
+---
+import TextInput from "../components/textInput.jsx";
+---
+
+<!-- this is the page that users visit  -->
+<html>
+  <head>
+    <title>But how will I be remembered? </title>
+    <link rel="stylesheet" type = "../css/style.css" href = "style">
+  </head>
+  <body>
+    <div id="admin-toggle">
+      <a href="/admin"><button>Switch to Admin View</button></a>
+    </div>
+    <h1 class = 'title'>Artifact Cloud</h1>
+    <!-- now importing the elements defined in textInput.jsx -->
+    <TextInput client:load />  <!-- Ensures React runs in the browser -->
+  </body>
+</html>

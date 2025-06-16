@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type = "../css/style.css" href = "style">
+</head>
+<body>
+    <div id="admin-toggle">
+        <a href="/"><button>Back to User View</button></a>
+    </div>
+    <h1>Admin Dashboard </h1>
+    <div id="dashboard">
+        <!-- Placeholder for wordclouds, charts, etc. -->
+        <img src={`/static/all_inclusive_cloud.png?${Date.now()}`} alt="All Inclusive Cloud">
+        <img src={`/static/sentiment_distribution.png?${Date.now()}`} alt="sentiment distribution">
+        <img src={`/static/flagging_distribution.png?${Date.now()}`} alt="flagging distribution">
+        <img src={`/static/flag_reason_chart.png?${Date.now()}`} alt="types of flags distribution">
+        <br>
+        <h3 class = "title" style="font-family: Calibri, sans-serif; font-size: 20px"> Top 5 words of 8 topics </h3>
+        <img src={`/static/topic_model.png?${Date.now()}`} alt="Top 5 words of 8 topics">
+        <img src={`/static/top_flagged_keywords.png?${Date.now()}`} alt="Top flagged keywords">
+
+    </div>
+
+</body>
+</html>
